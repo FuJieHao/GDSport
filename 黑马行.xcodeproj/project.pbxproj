@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04B184951DD5C66C00DBBA37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B184941DD5C66C00DBBA37 /* Main.storyboard */; };
+		04B184971DD5CA2E00DBBA37 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04B184961DD5CA2E00DBBA37 /* Info.plist */; };
+		04B184A91DD5E54400DBBA37 /* FJSportMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B1849E1DD5E54400DBBA37 /* FJSportMainViewController.m */; };
+		04B184AA1DD5E54400DBBA37 /* FJSportMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B184A01DD5E54400DBBA37 /* FJSportMapViewController.m */; };
+		04B184AB1DD5E54400DBBA37 /* FJSportSportingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B184A21DD5E54400DBBA37 /* FJSportSportingViewController.m */; };
+		04B184AC1DD5E54400DBBA37 /* FJSportingTrackingLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B184A51DD5E54400DBBA37 /* FJSportingTrackingLine.m */; };
+		04B184AD1DD5E54400DBBA37 /* FJSportTracking.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B184A71DD5E54400DBBA37 /* FJSportTracking.m */; };
+		04B184B11DD5E61000DBBA37 /* FJSportPolyline.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B184B01DD5E61000DBBA37 /* FJSportPolyline.m */; };
+		04B184B31DD5EB5C00DBBA37 /* FJSportView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B184B21DD5EB5C00DBBA37 /* FJSportView.storyboard */; };
+		04B184B61DD6ABBE00DBBA37 /* DINCond-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04B184B51DD6ABBE00DBBA37 /* DINCond-Bold.otf */; };
+		04BC59B61DD5C394002B0223 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BC59B51DD5C394002B0223 /* main.m */; };
+		04BC59B91DD5C394002B0223 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BC59B81DD5C394002B0223 /* AppDelegate.m */; };
+		04BC59C21DD5C394002B0223 /* ___.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04BC59C01DD5C394002B0223 /* ___.xcdatamodeld */; };
+		04BC59C41DD5C394002B0223 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04BC59C31DD5C394002B0223 /* Assets.xcassets */; };
+		04BC59C71DD5C394002B0223 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BC59C51DD5C394002B0223 /* LaunchScreen.storyboard */; };
+		04F737EB1DE27EC90073F6D7 /* FJSportGPSSignalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F737EA1DE27EC90073F6D7 /* FJSportGPSSignalButton.m */; };
+		B6250944F130797E11C367DB /* libPods-黑马行.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C4E9CD338941B7F4AFBBFBB /* libPods-黑马行.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04B184941DD5C66C00DBBA37 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		04B184961DD5CA2E00DBBA37 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04B1849D1DD5E54400DBBA37 /* FJSportMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJSportMainViewController.h; sourceTree = "<group>"; };
+		04B1849E1DD5E54400DBBA37 /* FJSportMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJSportMainViewController.m; sourceTree = "<group>"; };
+		04B1849F1DD5E54400DBBA37 /* FJSportMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJSportMapViewController.h; sourceTree = "<group>"; };
+		04B184A01DD5E54400DBBA37 /* FJSportMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJSportMapViewController.m; sourceTree = "<group>"; };
+		04B184A11DD5E54400DBBA37 /* FJSportSportingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJSportSportingViewController.h; sourceTree = "<group>"; };
+		04B184A21DD5E54400DBBA37 /* FJSportSportingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJSportSportingViewController.m; sourceTree = "<group>"; };
+		04B184A41DD5E54400DBBA37 /* FJSportingTrackingLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJSportingTrackingLine.h; sourceTree = "<group>"; };
+		04B184A51DD5E54400DBBA37 /* FJSportingTrackingLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJSportingTrackingLine.m; sourceTree = "<group>"; };
+		04B184A61DD5E54400DBBA37 /* FJSportTracking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJSportTracking.h; sourceTree = "<group>"; };
+		04B184A71DD5E54400DBBA37 /* FJSportTracking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJSportTracking.m; sourceTree = "<group>"; };
+		04B184AF1DD5E61000DBBA37 /* FJSportPolyline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJSportPolyline.h; sourceTree = "<group>"; };
+		04B184B01DD5E61000DBBA37 /* FJSportPolyline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJSportPolyline.m; sourceTree = "<group>"; };
+		04B184B21DD5EB5C00DBBA37 /* FJSportView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FJSportView.storyboard; sourceTree = "<group>"; };
+		04B184B51DD6ABBE00DBBA37 /* DINCond-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINCond-Bold.otf"; sourceTree = "<group>"; };
+		04BC59B11DD5C394002B0223 /* 黑马行.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "黑马行.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04BC59B51DD5C394002B0223 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04BC59B71DD5C394002B0223 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04BC59B81DD5C394002B0223 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04BC59C11DD5C394002B0223 /* ___.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "___.xcdatamodel"; sourceTree = "<group>"; };
+		04BC59C31DD5C394002B0223 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04BC59C61DD5C394002B0223 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04F737E91DE27EC90073F6D7 /* FJSportGPSSignalButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJSportGPSSignalButton.h; sourceTree = "<group>"; };
+		04F737EA1DE27EC90073F6D7 /* FJSportGPSSignalButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJSportGPSSignalButton.m; sourceTree = "<group>"; };
+		193333D09ED958278B73621F /* Pods-黑马行.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-黑马行.release.xcconfig"; path = "Pods/Target Support Files/Pods-黑马行/Pods-黑马行.release.xcconfig"; sourceTree = "<group>"; };
+		6C4E9CD338941B7F4AFBBFBB /* libPods-黑马行.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-黑马行.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC79A3E195ED8AABDD648CDF /* Pods-黑马行.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-黑马行.debug.xcconfig"; path = "Pods/Target Support Files/Pods-黑马行/Pods-黑马行.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04BC59AE1DD5C394002B0223 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6250944F130797E11C367DB /* libPods-黑马行.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04B1849B1DD5E54400DBBA37 /* Sport */ = {
+			isa = PBXGroup;
+			children = (
+				04B1849C1DD5E54400DBBA37 /* Controllers */,
+				04B184A31DD5E54400DBBA37 /* Model */,
+				04B184A81DD5E54400DBBA37 /* Views */,
+			);
+			path = Sport;
+			sourceTree = "<group>";
+		};
+		04B1849C1DD5E54400DBBA37 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				04B1849D1DD5E54400DBBA37 /* FJSportMainViewController.h */,
+				04B1849E1DD5E54400DBBA37 /* FJSportMainViewController.m */,
+				04B1849F1DD5E54400DBBA37 /* FJSportMapViewController.h */,
+				04B184A01DD5E54400DBBA37 /* FJSportMapViewController.m */,
+				04B184A11DD5E54400DBBA37 /* FJSportSportingViewController.h */,
+				04B184A21DD5E54400DBBA37 /* FJSportSportingViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		04B184A31DD5E54400DBBA37 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04B184A41DD5E54400DBBA37 /* FJSportingTrackingLine.h */,
+				04B184A51DD5E54400DBBA37 /* FJSportingTrackingLine.m */,
+				04B184A61DD5E54400DBBA37 /* FJSportTracking.h */,
+				04B184A71DD5E54400DBBA37 /* FJSportTracking.m */,
+				04B184AF1DD5E61000DBBA37 /* FJSportPolyline.h */,
+				04B184B01DD5E61000DBBA37 /* FJSportPolyline.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04B184A81DD5E54400DBBA37 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				04F737E91DE27EC90073F6D7 /* FJSportGPSSignalButton.h */,
+				04F737EA1DE27EC90073F6D7 /* FJSportGPSSignalButton.m */,
+				04B184B21DD5EB5C00DBBA37 /* FJSportView.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		04B184AE1DD5E55100DBBA37 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				04BC59B71DD5C394002B0223 /* AppDelegate.h */,
+				04BC59B81DD5C394002B0223 /* AppDelegate.m */,
+				04B184941DD5C66C00DBBA37 /* Main.storyboard */,
+				04BC59C31DD5C394002B0223 /* Assets.xcassets */,
+				04BC59C51DD5C394002B0223 /* LaunchScreen.storyboard */,
+				04BC59C01DD5C394002B0223 /* ___.xcdatamodeld */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		04B184B41DD6ABBE00DBBA37 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				04B184B51DD6ABBE00DBBA37 /* DINCond-Bold.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		04BC59A81DD5C394002B0223 = {
+			isa = PBXGroup;
+			children = (
+				04BC59B31DD5C394002B0223 /* 黑马行 */,
+				04BC59B21DD5C394002B0223 /* Products */,
+				BBF0EEFCE47200B721B832C0 /* Pods */,
+				509BC707BBFA475DE8D5752F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04BC59B21DD5C394002B0223 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04BC59B11DD5C394002B0223 /* 黑马行.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04BC59B31DD5C394002B0223 /* 黑马行 */ = {
+			isa = PBXGroup;
+			children = (
+				04B184AE1DD5E55100DBBA37 /* Others */,
+				04B1849B1DD5E54400DBBA37 /* Sport */,
+				04BC59B41DD5C394002B0223 /* Supporting Files */,
+			);
+			path = "黑马行";
+			sourceTree = "<group>";
+		};
+		04BC59B41DD5C394002B0223 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04B184961DD5CA2E00DBBA37 /* Info.plist */,
+				04BC59B51DD5C394002B0223 /* main.m */,
+				04B184B41DD6ABBE00DBBA37 /* Fonts */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		509BC707BBFA475DE8D5752F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C4E9CD338941B7F4AFBBFBB /* libPods-黑马行.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BBF0EEFCE47200B721B832C0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC79A3E195ED8AABDD648CDF /* Pods-黑马行.debug.xcconfig */,
+				193333D09ED958278B73621F /* Pods-黑马行.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04BC59B01DD5C394002B0223 /* 黑马行 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04BC59CB1DD5C394002B0223 /* Build configuration list for PBXNativeTarget "黑马行" */;
+			buildPhases = (
+				330BA3A612ACC0E467E0F2DB /* [CP] Check Pods Manifest.lock */,
+				04BC59AD1DD5C394002B0223 /* Sources */,
+				04BC59AE1DD5C394002B0223 /* Frameworks */,
+				04BC59AF1DD5C394002B0223 /* Resources */,
+				897251734C93698ED0BC893C /* [CP] Embed Pods Frameworks */,
+				97EF64EB60D1069D4A540D55 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "黑马行";
+			productName = "黑马行";
+			productReference = 04BC59B11DD5C394002B0223 /* 黑马行.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04BC59A91DD5C394002B0223 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = haofujie;
+				TargetAttributes = {
+					04BC59B01DD5C394002B0223 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = JP384R79AL;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 04BC59AC1DD5C394002B0223 /* Build configuration list for PBXProject "黑马行" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04BC59A81DD5C394002B0223;
+			productRefGroup = 04BC59B21DD5C394002B0223 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04BC59B01DD5C394002B0223 /* 黑马行 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04BC59AF1DD5C394002B0223 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B184B31DD5EB5C00DBBA37 /* FJSportView.storyboard in Resources */,
+				04B184971DD5CA2E00DBBA37 /* Info.plist in Resources */,
+				04B184B61DD6ABBE00DBBA37 /* DINCond-Bold.otf in Resources */,
+				04BC59C71DD5C394002B0223 /* LaunchScreen.storyboard in Resources */,
+				04BC59C41DD5C394002B0223 /* Assets.xcassets in Resources */,
+				04B184951DD5C66C00DBBA37 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		330BA3A612ACC0E467E0F2DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		897251734C93698ED0BC893C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-黑马行/Pods-黑马行-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97EF64EB60D1069D4A540D55 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-黑马行/Pods-黑马行-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04BC59AD1DD5C394002B0223 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B184AB1DD5E54400DBBA37 /* FJSportSportingViewController.m in Sources */,
+				04BC59C21DD5C394002B0223 /* ___.xcdatamodeld in Sources */,
+				04F737EB1DE27EC90073F6D7 /* FJSportGPSSignalButton.m in Sources */,
+				04BC59B91DD5C394002B0223 /* AppDelegate.m in Sources */,
+				04BC59B61DD5C394002B0223 /* main.m in Sources */,
+				04B184AA1DD5E54400DBBA37 /* FJSportMapViewController.m in Sources */,
+				04B184AD1DD5E54400DBBA37 /* FJSportTracking.m in Sources */,
+				04B184AC1DD5E54400DBBA37 /* FJSportingTrackingLine.m in Sources */,
+				04B184B11DD5E61000DBBA37 /* FJSportPolyline.m in Sources */,
+				04B184A91DD5E54400DBBA37 /* FJSportMainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04BC59C51DD5C394002B0223 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04BC59C61DD5C394002B0223 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04BC59C91DD5C394002B0223 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04BC59CA1DD5C394002B0223 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04BC59CC1DD5C394002B0223 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC79A3E195ED8AABDD648CDF /* Pods-黑马行.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JP384R79AL;
+				INFOPLIST_FILE = "黑马行/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fujiehao.---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04BC59CD1DD5C394002B0223 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 193333D09ED958278B73621F /* Pods-黑马行.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JP384R79AL;
+				INFOPLIST_FILE = "黑马行/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fujiehao.---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04BC59AC1DD5C394002B0223 /* Build configuration list for PBXProject "黑马行" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BC59C91DD5C394002B0223 /* Debug */,
+				04BC59CA1DD5C394002B0223 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04BC59CB1DD5C394002B0223 /* Build configuration list for PBXNativeTarget "黑马行" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BC59CC1DD5C394002B0223 /* Debug */,
+				04BC59CD1DD5C394002B0223 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		04BC59C01DD5C394002B0223 /* ___.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04BC59C11DD5C394002B0223 /* ___.xcdatamodel */,
+			);
+			currentVersion = 04BC59C11DD5C394002B0223 /* ___.xcdatamodel */;
+			path = "___.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 04BC59A91DD5C394002B0223 /* Project object */;
+}
